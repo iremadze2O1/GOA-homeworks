@@ -59,14 +59,21 @@ else :
 
 #conditinal statements extreme 4
 
+DMT = "Your numbers don't make a triangle"
+
 first_side = int(input("please enter your triangles first side :"))
 
 second_side = int(input("please enter your triangles second side :"))
 
 third_side = int(input("please enter your triangles third side :"))
 
-if first_side + second_side > third_side :
-    print("your numbers make a triangle")
-
-else :
-    print("your numbers dont make a triangle")
+if first_side + second_side > third_side:
+    if second_side + third_side > first_side:
+        if third_side + first_side > second_side:
+            print("Your numbers make a triangle")
+        else:
+            print(DMT)
+    else:
+        print(DMT)
+else:
+    print(DMT)
