@@ -1,4 +1,3 @@
-#i asked multipull people for help but they didnt
 #for
 
 for i in range (21) :
@@ -44,7 +43,7 @@ while guess != num3 :
     print("wrong guess again")
     guess = int(input("please enter a number : "))
 print("correct")
-#didnt understand/couldnt figure it out/havent learned in school how to do math problem
+
 password = "password123"
 guessed = input("enter password :")
 while guessed != password :
@@ -88,21 +87,47 @@ if age >= 13 and age <= 19 :
     print("you are a teenager")
 else :
     print("you are not a teenager")
+#for N2
+sum3 = 0
+for i in range(11) :
+    print(i)
+    sum3 = sum3 + i
+print(sum3)
 
-#for loops
-#didnt understand/couldnt figure it out/havent learned in school how to do math problem
 for i in range (16) :
     print(i ** 2)
-#didnt understand/couldnt figure it out/havent learned in school how to do math problem
+
+sum4 = 0
+for i in range (6):
+    print(i ** 2)
+    sum4 = sum4 + i
+print(sum4)
+
 for i in range (1 - 1, 100 , 3 * 5) :
     print(i)
 
+for i in range (10 , 0  , -1) :
+    print(i)
+
 #while
-#didnt understand/couldnt figure it out/havent learned in school how to do math problem
-#didnt understand/couldnt figure it out/havent learned in school how to do math problem
-#didnt understand/couldnt figure it out/havent learned in school how to do math problem
-#didnt understand/couldnt figure it out/havent learned in school how to do math problem
-#didnt understand/couldnt figure it out/havent learned in school how to do math problem
+num6 = 10
+while num6 > 0:
+    print(num6)
+    num6 -= 1
+
+sum = 0
+i = 0
+while i <= 99:
+    sum += i
+    i += 1
+    print(i)
+print(sum)
+
+num7 = 1
+while num7 <= 10:
+    print(num7 ** 2)
+    num7 += 1
+
 #if-else
 
 date = int(input("please anter a year : "))
@@ -111,7 +136,7 @@ if type(date) != int :
     print("your year is a leap year")
 else :
     print("your year isn't a leap year")
-#didnt understand/couldnt figure it out/havent learned in school how to do math problem
+
 num5 = int(input("please enter a number : "))
 if num5 > 0 :
     print("your number is a positive number")
@@ -131,5 +156,3 @@ elif bmi > 26 and bmi < 39 :
     print("youre over weight")
 else :
     print("youre obese")
-
-#didnt understand/couldnt figure it out/havent learned in school how to do math problem
