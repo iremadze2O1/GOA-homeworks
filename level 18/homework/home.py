@@ -41,3 +41,33 @@ else:
 lst3 = [1 , 2 , 3 ,4 , 5 , 6]
 
 print(lst3[1 : 3] + [5])
+
+lst4 = [1 , 2 , 4 , 2]
+
+lst5 = ["idk" , "idc" , "lmao" , "idgaf"]
+
+lst6 = []
+
+num = 0
+
+for i in range (4) :
+    lst6.append(lst4[num])
+    lst6.append(lst5[num])
+    num = num + 1
+print(lst6)
+
+num1 = 0
+
+lst7 = [1 , "ilia" , 2 , 3 , "nia"]
+lst8 = []
+lst9 = []
+divide = lst[num1] // 2
+for i in range (4) :
+    if divide == True :
+        lst8.append(lst7[num1])
+        num1 = num1 + 1
+    else :
+        lst9.append(lst7[num1])
+        num1 = num1 + 1
+print(lst8)
+print(lst9)
