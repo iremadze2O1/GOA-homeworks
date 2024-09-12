@@ -1,0 +1,82 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+    font-family: monospace;
+}
+
+#first-half{
+    height: 600px;
+    width: 500px;
+    margin-left: 100px;
+    margin-top: 20px;
+    padding: 50px;
+    border-radius: 3%;
+    background-color: rgb(211, 207, 207);
+    text-align: center;
+}
+
+#first-half h2{
+    text-align: left;
+    padding-bottom: 10px;
+}
+
+#title{
+    padding: 5px 100px;
+    text-align: left;
+    background-color: rgb(211, 207, 207);
+}
+
+#name{
+    margin-top: 5px;
+    padding: 5px 8px;
+    text-align: left;
+    background-color: rgb(211, 207, 207); 
+}
+
+#lastname{
+    margin-top: 5px;
+    padding: 5px 8px;
+    text-align: left;
+    background-color: rgb(211, 207, 207);
+}
+
+#position{
+    padding: 5px 100px;
+    margin-top: 10px;
+    text-align: left;
+    background-color: rgb(211, 207, 207);
+}
+
+#company{
+    padding: 5px 100px;
+    margin-top: 10px;
+    text-align: left;
+    background-color: rgb(211, 207, 207);
+}
+
+#buisness_area{
+    margin-top: 5px;
+    padding: 5px 8px;
+    text-align: left;
+    background-color: rgb(211, 207, 207); 
+}
+
+#employees{
+    margin-top: 5px;
+    padding: 5px 8px;
+    text-align: left;
+    background-color: rgb(211, 207, 207);
+}
+
+#submit{
+    margin-top: 5px;
+    padding: 5px 8px;
+    text-align: left;
+    background-color: rgb(211, 207, 207);
+}
+
+#submit:hover{
+    background-color: black;
+    color: rgb(211, 207, 207);
+}

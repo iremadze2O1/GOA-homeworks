@@ -1,0 +1,30 @@
+*{
+    font-family: monospace;
+    font-size: 30px;
+   
+    text-align: center;
+}
+ol{
+    /* color of the text */
+    color: blueviolet;
+    /* how it numbers the list */
+    list-style-type: upper-roman;
+    /* and position of the numbering system */
+    list-style-position: inside;
+}
+ul{
+    /* color of the text */
+    color: blue;
+    /* how it numbers the list */
+    list-style: square;
+    /* and position of the numbering system */
+    list-style-position: inside;
+}
+form{
+
+    border-radius: 1000px;
+    background-color: blueviolet;
+
+    margin: 400px;
+
+}

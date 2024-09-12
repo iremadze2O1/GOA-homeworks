@@ -1,0 +1,25 @@
+Git
+Git is the most popular version control system it records changes something called reposetory and 
+we can look at the history of who made what change to the code.
+without git we would have to make new folders and send them to each other and thats slow.
+if you are trying to work in development you should learn git because many companies require it.
+
+Github
+it is largest startup-launching community-driven secure development platform in the world nearly every developer uses it
+this is a place where world builts software, where you can store your code and i recomend you use it because when you
+appli for a job for programming companies will ask you to see your git hub and it may decide if you will get the job or not.
+
+git init
+it creates creates a new git repository
+git add .
+it  adds a change in the working directory to the staging area
+git commit -m "(what name you want)"
+it creates history and remmembers changes from the last commit
+git branch -M main
+it is naming convention for a branch
+git remote add origin
+it centralises your source code to the other projects
+git push -u origin main
+it create a new branch on the remote called main
+git push
+it is used to upload local repository content to a remote repository

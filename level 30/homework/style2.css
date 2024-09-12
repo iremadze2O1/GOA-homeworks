@@ -1,0 +1,38 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: 0px;
+}
+
+div{
+    height: 300px;
+    width: 300px;
+    background-color: blueviolet;
+    margin-left: 10px;
+    margin-top: 10px;
+    border: 10px;
+    border-radius: 10%;
+    text-align: center;
+}
+
+div p{
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+div img{
+    padding: 10px;
+    border: 1px rgb(121, 35, 202) solid;
+    border-radius: 100%;
+}
+
+div button{
+    background-color: rgb(126, 40, 206);
+    box-shadow: ;
+    padding: 8px 11px;
+}
+
+div button:hover{
+    background-color: black;
+    color: blueviolet;
+}

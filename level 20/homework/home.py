@@ -71,3 +71,12 @@ def sort(lst) :
     print(l1)
 
 sort([3 , 7 , 4 , 0 , 1 , 1])
+
+def prime_check(user_num):
+    is_prime = True
+
+    for i in range(2, user_num):
+        if user_num%i == 0:
+            is_prime = False
+
+    return is_prime

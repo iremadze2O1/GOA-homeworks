@@ -1,0 +1,25 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+#parent{
+    /* სიმაღლე */
+    height: 300px;
+    /* სიგანე */
+    width: 300px;
+    /* ყკანა ფერი */
+    background-color: blueviolet;
+    /* ბორდერის ფერი და სიგანე */
+    border: 10px black solid;
+    /* ობიეცტის კუთხეების სიმრგველე */
+    border-radius: 10%;
+    /* padding - წარწერის დაშორება  */
+    padding: 100px 50px;
+    /* margin - ობიეცტის დაშორე ბა სხვა ობიექტებიდან */
+    margin: 100px;
+}
+
+/* box model - იგი არის ეგრედწოდებული ყუთი რომელიც ერტყმის ყველა html ელემენტს
+ისისნი არიან content , padding , border and margin */
