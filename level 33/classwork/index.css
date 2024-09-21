@@ -1,0 +1,25 @@
+#num1{
+    background-color: black;
+    color: blueviolet;
+    width: 100px;
+    height: 100px;
+    border: 2px solid brown;
+    margin: 12px 5px 3px 10px;
+    /* top margin */
+    margin-top: 12px;
+    /* right margin */
+    margin-right: 5px;
+    /* bottom margin */
+    margin-bottom: 3px;
+    /* left margin */
+    margin-left: 10px;
+    /* top padding */
+    padding-top: 5px;
+    /* right padding */
+    padding-right: 13px;
+    /* bottom padding */
+    padding-bottom: 8px;
+    /* left padding */
+    padding-left: 9px;
+    padding: 5px 13px 8px 9px;
+}

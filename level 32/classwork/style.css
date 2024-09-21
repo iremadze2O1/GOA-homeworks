@@ -1,0 +1,39 @@
+/* content-box stays saame but box-sizing makes it with height and width and if you add padding the height and width get smaller */
+#div1{
+    height: 100px;
+    width: 20px;
+    padding: 10px;
+    border: 3px solid black;
+    margin: 20px;
+    box-sizing: content-box;
+}
+/* height:
+100 height +
+10 padding +
+3 border =
+113px
+
+width:
+20 width +
+10 padding +
+3 border =
+33px*/
+#div2{
+    height: 210px;
+    width: 90px;
+    padding: 20px;
+    border: 10px solid;
+    margin: 50px;
+    box-sizing: border-box;
+}
+/* height:
+210 height +
+20 padding +
+10 border =
+240px
+
+width:
+90 width +
+20 padding +
+10 border =
+120px*/

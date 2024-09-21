@@ -1,0 +1,25 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+.parent{
+    height: 1000px;
+    width: 1000px;
+    border: 10px solid blue;
+
+
+    /* this makes "flex" possible */
+    display: flex;
+    /* with this you can change if is X or Y is dominant */
+    flex-direction: column;
+    /* you can change where child is placed in dominant */
+    justify-content: flex-end;
+    /* you can change where child is placed in nondominant */
+    align-items: center;
+}
+.child{
+    height: 200px;
+    width: 200px;
+    border: 10px solid red;
+}

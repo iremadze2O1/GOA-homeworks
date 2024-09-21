@@ -1,0 +1,21 @@
+#num1{
+    background-color: black;
+    color: blueviolet;
+    width: 100px;
+    height: 100px;
+    border: 2px solid brown;
+    margin: 12px;
+    padding: 5px;
+}
+#num2{
+    background-color: black;
+    color: blueviolet;
+    /* objects size */
+    width: 100px;
+    height: 100px;
+    /* border places border around text or somtihng else */
+    border: 20px solid brown;
+
+    margin: 2px;
+    padding: 10px;
+}
