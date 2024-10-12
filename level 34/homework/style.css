@@ -1,0 +1,59 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+    font-family: monospace;
+}
+
+header{
+    height: 100px;
+    width: 100%;
+
+    background-color: black;
+    position: fixed;
+    display: flex;
+    flex-direction: row;
+
+}
+header h1{
+    color: white;
+    margin-top: 20px;
+    margin-left: 40px;
+}
+
+header img{
+    margin: 0px;
+    padding: 0px;
+}
+
+header #nav{
+    height: 100px;
+    width: 715px;
+    background-color: black;
+    margin-left: 400px;
+    display: flex;
+    flex-direction: row;
+    gap: 35px;
+}
+
+#nav a{
+    font-size: 20px;
+    margin: 25px;
+    text-decoration: none;
+    color: white;
+}
+
+#nav a:hover{
+    text-transform: uppercase;
+}
+
+#nav a:active{
+    color: blue;
+}
+
+.block{
+    height: 200px;
+    width: 200px;
+    background-color: blueviolet;
+    border: 20px red solid;
+}

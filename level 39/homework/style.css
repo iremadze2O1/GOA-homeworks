@@ -1,0 +1,41 @@
+#a{
+    height: 10%;
+    width: 10%;
+    border: solid red 2px;
+}
+
+#b{
+    height: 20%;
+    width: 20%;
+    border: solid red 2px;
+}
+
+#c{
+    height: 30%;
+    width: 30%;
+    border: solid red 2px;
+}
+
+#d{
+    height: 40%;
+    width: 40%;
+    border: solid red 2px;
+}
+
+#e{
+    height: 50%;
+    width: 50%;
+    border: solid red 2px;
+}
+
+.g{
+    text-align: center;
+}
+
+.f{
+    text-align: right;
+}
+
+.h{
+    text-align: left;
+}

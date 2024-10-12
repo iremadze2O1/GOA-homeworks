@@ -1,0 +1,73 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+
+#N1{
+    width: 500px;
+    height: 500px;
+    background-color: green;
+    margin-left: 450px;
+    margin-top: 50px;
+
+    /* short */
+
+    transition: background-color 1s ease-out 2s, transform 2s ease 0.25s;
+
+    /* long */
+
+    /* how it should animate like fast in the star and slow in the end */
+    transition-timing-function: ease;
+    /* propertys that are animated */
+    transition-property: background-color , transform;
+    /* how  much time it would need to rotate and change color */
+    transition: background-color 5s , transform 1s;
+}
+
+#N1:hover{
+    /* background of the bloxk */
+    background-color: blue;
+    /* how many deg should a block rotate */
+    transform: rotate(45deg);
+}
+
+#N2 {
+    background-color: red;
+    width: 300px;
+    height: 300px;
+
+    animation: firstanim 5s ease 2s infinite alternate;
+
+    /* animation-name: firstanim;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease;
+    animation-delay: 2s;
+    animation-direction: alternate; */
+}
+
+/* @keyframes firstanim {
+    10% {
+        background-color: red;
+    }
+
+    20% {
+        background-color: blue;
+    }
+
+    40% {
+        background-color: green;
+    }
+
+    60% {
+        background-color: yellowgreen;
+    }
+
+    80% {
+        background-color: orange;
+    }
+
+    100% {
+        background-color: red;
+    }
+} */

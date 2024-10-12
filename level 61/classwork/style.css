@@ -1,0 +1,248 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+body{
+    background-color:#f5f5f5;
+}
+
+/* parent */
+#parent{
+    display: grid;
+    grid-gap: 20px;
+    grid-template-columns: 723.6px;
+    grid-template-rows: 199.8px 199.8px 199.8px 199.8px;
+}
+
+
+/* first */
+#first{
+    grid-row-start: 0%;
+    grid-row-end: 35%;
+    grid-column-start: 25%;
+    grid-column-end: 75%;
+    height: 253.8px;
+    width: 419.6px;
+    background-color: hsl(256, 67%, 59%);
+    border: solid transparent 0px;
+    border-radius: 3%;
+    text-align: center;
+
+}
+
+#first #fasterWai{
+    padding-top: 35px;
+    margin-top: 25px;
+    margin-bottom: 33px;
+    font-size: 35px;
+    color: white;
+}
+
+#first #fivestars{
+    height: 50px;
+}
+
+#first #over{
+    color: white;
+    font-weight: 50;
+}
+
+/* second */
+#second{
+    grid-row-start: 0%;
+    grid-row-end: ;
+    grid-column-start: ;
+    grid-column-end: ;
+    height: 199.8px;
+    width: 199.8px;
+    background-color: rgb(255, 255, 255);
+    border: solid transparent 0px;
+    border-radius: 3%;
+    overflow: hidden;
+}
+
+#second img{
+    margin-left: 10px;
+    width: 270px;
+}
+
+#second p{
+    margin-top: 10px;
+    margin-left: 10px;
+    font-size: 27px;
+    line-height: 35px;
+}
+
+/* third */
+#third{
+    grid-row-start: ;
+    grid-row-end: ;
+    grid-column-start: ;
+    grid-column-end: ;
+    height: 199.8px;
+    width: 199.8px;
+    background-color: #ffcc69;
+    border: solid transparent 0px;
+    border-radius: 3%;
+    overflow: hidden;
+}
+
+#third p{
+    margin-left: 10px;
+    margin-top: 8px;
+    font-size: 27px;
+    line-height: 29px;
+}
+
+#third img{
+    margin-left: 10px;
+
+    height: 130px;
+}
+
+/* fourth */
+#fourth{
+    grid-row-start: ;
+    grid-row-end: ;
+    grid-column-start: ;
+    grid-column-end: ;
+    height: 464.4px;
+    width: 199.8px;
+    background-color: #dcd1fc;
+    border: solid transparent 0px;
+    border-radius: 5%;
+    overflow: hidden;
+}
+
+#fourth #bigger{
+    font-size: 29px;
+    margin-left: 10px;
+    margin-top: 50px;
+}
+
+#fourth img{
+    margin-left: 10px;
+    margin-top: 40px;
+    height: 270px;
+}
+
+#fourth #smaller{
+    margin-top: 30px;
+    margin-left: 10px;
+    font-weight: 50;
+    font-size: 20px;
+}
+
+/* fifth */
+#fifth{
+    grid-row-start: ;
+    grid-row-end: ;
+    grid-column-start: ;
+    grid-column-end: ;
+    height: 199.8px;
+    width: 419.6px;
+    background-color: #7651dc;
+    border: solid transparent 0px;
+    border-radius: 5%;
+    overflow: hidden;
+    display: flex;
+    flex-direction: row;
+}
+
+#fifth img{
+    height: 180px;
+    margin-top: 10px;
+    margin-left: 10px;
+}
+
+#fifth p{
+    color: white;
+    font-size: 27px;
+    margin-top: 50px;
+}
+
+/* sixth */
+#sixth{
+    grid-row-start: ;
+    grid-row-end: ;
+    grid-column-start: ;
+    grid-column-end: ;
+    height: 199.8px;
+    width: 199.8px;
+    background-color: rgb(255, 255, 255);
+    border: solid transparent 0px;
+    border-radius: 3%;
+    overflow: hidden;
+}
+
+#sixth #procentail{
+    font-size: 45px;
+    margin-left: 10px;
+    margin-top: 10px;
+}
+
+#sixth #text{
+    margin-left: 10px;
+    margin-top: 10px;
+}
+
+#sixth img{
+    margin-left: 10px;
+    margin-top: 20px;
+    height: 65px;
+}
+
+/* seventh */
+#seventh{
+    grid-row-start: ;
+    grid-row-end: ;
+    grid-column-start: ;
+    grid-column-end: ;
+    height: 361.8px;
+    width: 199.8px;
+    background-color: #faeee2;
+    border: solid transparent 0px;
+    border-radius: 5%;
+    overflow: hidden;
+}
+
+#seventh p{
+    margin-top: 45px;
+    margin-left: 10px;
+    font-size: 31px;
+}
+
+#seventh img{
+    margin-top: 35px;
+    margin-left: 10px;
+    height: 80px;
+}
+
+/* eighth */
+#eighth{
+    grid-row-start: ;
+    grid-row-end: ;
+    grid-column-start: ;
+    grid-column-end: ;
+    height: 361.8px;
+    width: 199.8px;
+    background-color: #ffcc69;
+    border: solid transparent 0px;
+    border-radius: 5%;
+    overflow: hidden;
+}
+
+#eighth p{
+    margin-top: 45px;
+    margin-left: 10px;
+    font-size: 31px;
+}
+
+#eighth img{
+    margin-top: 20px;
+    margin-left: 10px;
+    width: 200px;
+}

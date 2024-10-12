@@ -1,0 +1,31 @@
+body{
+    display: grid;
+    grid-template-columns: 250px 250px 250px;
+    grid-template-rows: 200px 200px;
+    gap: 20px;
+}
+
+div{
+    height: 200px;
+    width: 250px;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+div img{
+    height: 200px;
+    width: 250px;
+    position: absolute;
+    z-index: 0;
+}
+
+div p{
+    z-index: 1;
+}
+
+div h1{
+    z-index: 1;
+}

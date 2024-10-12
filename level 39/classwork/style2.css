@@ -1,0 +1,35 @@
+:root{
+    --height: 100px;
+    --width: 100px;
+    --color: red;
+}
+
+#N1{
+    height: var(--height);
+    width: var(--width);
+    background-color: var(--color);
+}
+
+#N2{
+    height: var(--height);
+    width: var(--width);
+    background-color: var(--color);
+}
+
+/* root is variable creator like if we need to write a big
+code in multiple plasces we can make is a variable and place
+it where we want without taking much space */
+
+#box{
+    height: var(--height);
+    width: var(--width);
+    background-color: var(--color);
+}
+
+#box:hover{
+    transform: rotate(90deg);
+
+    -webkit-transform: rotate(45deg);
+    -moz-transform: rotate(30deg);
+    -ms-transform: rotate(15deg);  
+}

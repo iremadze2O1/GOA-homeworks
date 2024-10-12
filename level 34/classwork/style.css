@@ -1,0 +1,42 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.parent {
+    position: relative;
+    /* positioned relative to its normal position */
+    /* in this scenario i used it so anything in this
+    box who has absolute position doesnt go out of the box */
+    background-color: #0084ff;
+    border-radius: 20%;
+}
+
+img {
+    width: 70px;
+}
+
+.red-circle {
+    width: 25px;
+    height: 25px;
+    background-color: red;
+    color: white;
+    border-radius: 50%;
+    position: absolute;
+    /* it places said object how it is portraid in box*/
+    /* in this scenario i used absolute to place object 
+    anywhere i want without changing other objects places */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* i made it so object is where i need it */
+    bottom: 55px;
+    left: 53px;
+}

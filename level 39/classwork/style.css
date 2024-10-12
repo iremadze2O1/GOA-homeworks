@@ -1,0 +1,124 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    color: white;
+}
+
+header{
+    height: 100px;
+    width: 100%;
+    background-color: black;
+    display: flex;
+    flex-direction: row;
+}
+
+header h1{
+    margin-top: 30px;
+    margin-left: 40px;
+}
+
+nav{
+    margin-left: 500px;
+    height: 100px;
+    width: 600px;
+    display: flex;
+    flex-direction: row;
+    gap: 100px;
+}
+
+nav a{
+    margin-top: 40px;
+}
+
+
+/* correct */
+@media (max-width: 4000px){
+    header {
+        background-color: skyblue;
+        display: flex;
+        align-items: center;
+    
+        gap: 600px;
+    
+        padding: 20px;
+    }
+    
+    /*Selector*/
+    nav {
+        /* declaration */
+        display: flex;
+        gap: 50px;
+    
+        font-size: 25px;
+    }
+    #content {
+        width: 500px;
+        height: 100000px;
+
+        background-color: aquamarine;
+    }
+}
+
+
+@media (max-width: 1500px){
+    header {
+        gap: 300px;
+    }
+    nav {
+        gap: 25px;
+    }
+}
+
+@media (max-width: 1000px){
+    header {
+        gap: 100px;
+    }
+}
+
+@media (max-width: 500px){
+    nav {
+        flex-direction: column;
+    }
+}
+
+
+/* mine */
+/* @media (width-max: 2000px){
+    nav{
+        margin-left: 1400px;
+        gap: 200px;
+    }
+}
+
+@media (width-max: 1500px){
+    nav{
+        width: 400px;
+        margin-left: 200px;
+        gap: 100px;
+    }
+}
+
+@media (width-max: 1000px){
+    nav{
+        width: 200px;
+        margin-left: 400px;
+        gap: 50px;
+    }
+}
+
+@media (width-max: 500px){
+    nav{
+        width: 100px;
+        margin-left: 100px;
+        flex-direction: column;
+        gap: 0px;
+    }
+}
+
+@media (width-max: 100px){
+    nav{
+        margin-left: 0px;
+        flex-direction: column;
+        gap: 0px;
+    }
+} */
