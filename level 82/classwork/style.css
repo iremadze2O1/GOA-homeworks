@@ -1,0 +1,80 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+@font-face {
+    font-family: myFirstFont;
+    src: url(static/Rubik-Regular.ttf);
+}
+
+body{
+    font-family: MyFirstFont;
+    background-color: black;
+}
+
+/* #lightDark{
+    margin: 20px;
+    height: 50px;
+    width: 100px;
+    border: 0px solid transparent;
+    border-radius: 50px;
+    background-color: black;
+    color: white;
+    font-weight: bold;
+} */
+
+#card{
+    margin-top: 125px;
+    margin-left: 125px;
+    height: 500px;
+    width: 325px;
+    background-color: yellow;
+    border: 0px solid transparent;
+    border-radius: 30px;
+}
+
+hr{
+    position: absolute;
+    height: 5px;
+    color: black;
+}
+
+#N1{
+    width: 325px;
+    height: 165px;
+    background-color: rgb(255, 255, 255);
+    border: 0px solid transparent;
+    border-top-right-radius: 28px;
+    border-top-left-radius: 28px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#clubs{
+    position: absolute;
+    margin-left: 115.5px;
+    height: 100px;
+}
+
+#N2{
+    width: 325px;
+    height: 335px;
+    background-color: rgb(255, 255, 255);
+    border: 0px solid transparent;
+    border-bottom-right-radius: 28px;
+    border-bottom-left-radius: 28px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#Cace{
+    display: none;
+    position: absolute;
+    height: 500px;
+    width: 325px;
+    border-radius: 28px;
+}

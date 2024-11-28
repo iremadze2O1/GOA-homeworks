@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="ka">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>ოთკუთხედის ანიმაციური მოძრაობა</title>
+        <style>
+            #square {
+                width: 100px;
+                height: 100px;
+                background-color: red;
+                position: absolute;
+                transition: left 1s ease, top 1s ease;
+            }
+        </style>
+    </head>
+    <body>
+
+    <div id="square"></div>
+
+    <script>
+        const square = document.getElementById('square');
+        const offset = 20;
+        const corners = [
+            { left: offset, top: offset },
+            { left: window.innerWidth - 100 - offset, top: offset },
+            { left: window.innerWidth - 100 - offset, top: window.innerHeight - 100 - offset },
+            { left: offset, top: window.innerHeight - 100 - offset }
+        ];
+
+        let currentCorner = 0;
+
+        function moveSquare() {
+            const { left, top } = corners[currentCorner];
+            square.style.left = `${left}px`;
+            square.style.top = `${top}px`;
+            currentCorner = (currentCorner + 1) % corners.length;
+            setTimeout(moveSquare, 1500);
+        }
+
+        moveSquare();
+
+        window.addEventListener('resize', () => {
+            corners[1].left = window.innerWidth - 100 - offset;
+            corners[2].left = window.innerWidth - 100 - offset;
+            corners[2].top = window.innerHeight - 100 - offset;
+            corners[3].top = window.innerHeight - 100 - offset;
+        });
+    </script>
+
+    </body>
+</html>
