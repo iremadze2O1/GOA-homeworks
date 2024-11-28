@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>DOM Manipulation Examples</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+
+        <h2>1. Using .createElement() to Create Elements</h2>
+        <button onclick="createParagraph()">Create Paragraph</button>
+        <button onclick="createImage()">Create Image</button>
+        <button onclick="createListItem()">Create List Item</button>
+
+        <div>
+            <h3>Created Elements:</h3>
+            <ul id="createdElementsList"></ul>
+        </div>
+
+        <h2>2. Using .appendChild() to Append Elements</h2>
+        <button onclick="appendParagraph()">Append Paragraph</button>
+        <button onclick="appendDiv()">Append Div</button>
+
+        <h2>3. Using .insertBefore() to Insert Elements</h2>
+        <button onclick="insertBeforePara()">Insert Paragraph Before</button>
+
+        <h2>4. Using .removeChild() to Remove Elements</h2>
+        <button onclick="removeFirstChild()">Remove First Element</button>
+
+        <h2>5. Using .parentNode to Find Parent</h2>
+        <button onclick="getParent()">Get Parent of First Paragraph</button>
+
+        <h2>6. Using .replaceChild() to Replace Elements</h2>
+        <button onclick="replaceParagraph()">Replace Paragraph</button>
+
+        <hr>
+
+        <div id="container">
+            <p id="para1">This is a paragraph.</p>
+            <p id="para2">This is another paragraph.</p>
+        </div>
+
+        <script src="script.js">
+        </script>
+
+    </body>
+</html>

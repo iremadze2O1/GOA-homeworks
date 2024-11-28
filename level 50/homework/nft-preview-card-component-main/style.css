@@ -1,0 +1,118 @@
+@font-face {
+    font-family: myFirstFont;
+    src: url(design/Outfit-VariableFont_wght.ttf);
+}
+
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+    font-family: myFirstFont;
+}
+
+body{
+    background-color: hsl(217, 54%, 11%);
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    font-weight: 300, 400, 600;
+}
+
+#main{
+    margin-top: 25px;
+    height: 597px;
+    width: 345px;
+    border: solid transparent 0px;
+    border-radius: 25px;
+    background-color: hsl(214, 50%, 16%);
+}
+
+#img {
+    margin: 20px 0px 0px 20px;
+    border-radius: 13px;
+    width: 305px;
+    height: 305px;
+}
+
+
+
+#img:hover + #view {
+    height: 50px;
+    width: 50px;
+}
+
+#view{
+    margin-right: 800px;
+    margin-top: 145px;
+    position: absolute;
+    height: 0px;
+    width: 0px;
+}
+
+#h2{
+    margin-top: 20px;
+    margin-left: 20px;
+    color: white;
+}
+
+#collection{
+    padding-top: 30px;
+    color: hsl(215, 21%, 46%);
+    margin-left: 20px;
+}
+
+#ETH-timeLeft{
+    padding-top: 30px;
+    display: flex;
+    flex-direction: row;
+}
+
+#ETH{
+    margin-left: 20px;
+}
+
+#worth{
+    padding-left: 5px;
+    color: #2ed8db;
+}
+
+#Tleft{
+    color: hsl(212, 32%, 65%);
+    margin-left: 5px;
+}
+
+#clock{
+    margin-left: 120px;
+}
+
+#da_line{
+    width: 305px;
+    margin: 20px;
+    border: solid hsl(215, 21%, 46%) 1px;
+    border-radius: 1px;
+}
+
+
+#PC{
+    margin-left: 20px;
+    display: flex;
+    flex-direction: row;
+}
+
+#person{
+    height: 35px;
+    width: 35px;
+    border: solid white 2px;
+    border-radius: 100%;
+}
+
+#creatior{
+    margin-left: 10px;
+    padding-top: 8px;
+    color: hsl(215, 21%, 46%);
+
+}
+
+#creatior span{
+    color: white;
+}

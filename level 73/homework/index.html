@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Text Manipulation and Style Manipulation</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Task 2 -->
+    <h2>Task 2: Manipulate Elements with IDs and Classes</h2>
+
+    <p id="textElement">This is the initial text.</p>
+    <button onclick="changeTextContent()">Change Text Content</button>
+
+    <br><br>
+
+    <div id="colorDiv" class="text-block" style="background-color: yellow;">This is the text inside a div.</div>
+    <button onclick="swapColors()">Swap Colors</button>
+
+    <br><br>
+
+    <div id="elementToHide" class="text-block">This element will disappear on button click.</div>
+    <button onclick="hideElement()">Hide Element</button>
+
+    <br><br>
+
+    <div class="fontElement">First element with the same class.</div>
+    <div class="fontElement">Second element with the same class.</div>
+    <div class="fontElement">Third element with the same class.</div>
+    <button onclick="changeFont()">Change Font for All</button>
+
+    <br><br>
+
+    <!-- Task 3 -->
+    <h2>Task 3: Text Manipulation</h2>
+
+    <p id="paragraph">This is the initial paragraph.</p>
+    <button onclick="changeParagraphContent()">Change Paragraph Content</button>
+
+    <br><br>
+
+    <img id="imageElement" src="https://via.placeholder.com/150" alt="Placeholder Image">
+    <button onclick="changeImageSource()">Change Image Source</button>
+
+    <br><br>
+
+    <input type="text" id="inputText" placeholder="Enter some text">
+    <button onclick="displayInputText()">Display Input Text in Paragraph</button>
+
+    <script src="script.js">
+    </script>
+</body>
+</html>
