@@ -1,7 +1,7 @@
-const password = document.getElementById('password').value;
 const passStrength = document.getElementById('strength');
 
 function checkPasswordStrength() {
+    const password = document.getElementById('password').value;
     const passwordLength = password.length;
     const numbers = "0123456789";
     const upperCaseLetters = "ABCDEFGHIJKLMNOPQRSTUVWXYZ";

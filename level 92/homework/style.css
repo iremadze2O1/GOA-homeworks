@@ -1,0 +1,46 @@
+#password {
+    width: 100%;
+    max-width: 300px;
+    padding: 10px;
+    margin: 10px 0;
+    border: 2px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+    transition: border-color 0.3s ease;
+    box-sizing: border-box;
+}
+
+#password:focus {
+    border-color: #66afe9;
+    outline: none;
+}
+
+.strength {
+    font-size: 16px;
+    font-weight: bold;
+    margin-top: 10px;
+    padding: 5px;
+    border-radius: 5px;
+    text-align: center;
+    transition: color 0.3s ease;
+}
+
+.strength.strong {
+    background-color: #28a745;
+    color: white;
+}
+
+.strength.meh {
+    background-color: #ffc107;
+    color: black;
+}
+
+.strength.weak {
+    background-color: #dc3545;
+    color: white;
+}
+
+.strength.empty {
+    background-color: transparent;
+    color: transparent;
+}
