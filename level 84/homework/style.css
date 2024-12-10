@@ -247,3 +247,7 @@ body{
     margin-left: 10px;
     width: 200px;
 }
+
+.attribution{
+    position: absolute;
+}
