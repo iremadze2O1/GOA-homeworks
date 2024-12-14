@@ -1,0 +1,203 @@
+@font-face {
+    font-family: Rubik;
+    src: url(Rubik-VariableFont_wght.ttf);
+}
+
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    transition: 0.5s;
+}
+
+body{
+    font-family: Rubik, sans-serif;
+    text-align: center;
+    background-color: rgb(255, 255, 255);
+    background-image: url(background.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+  
+#Main{
+    margin-top: 150px;
+    justify-self: center;
+    margin-bottom: 20px;
+    display: flex;
+    flex-direction: row;
+}
+  
+#money{
+    margin-left: 20px;
+    align-self: center;
+    line-height: 30px;
+    font-size: 20px;
+}
+
+#cookie{
+    justify-self: center;
+    width: 150px;
+    height: 150px;
+    background-color: #553311;
+    cursor: pointer;
+    border-radius: 75px;
+    transition: 0.3s;
+    display: grid;
+    grid-template-columns: repeat(4, 30px);
+    grid-template-rows: repeat(4, 30px);
+}
+
+#cookie:hover{
+    scale: 0.9;
+}
+
+#cookie:active{
+    scale: 0.8;
+}
+
+.chocolate-chip{
+    width: 30px;
+    height: 30px;
+    background-color: black;
+    border-radius: 100px;
+}
+
+#N1{
+    margin-top: 5px;
+    grid-column: 4 / 5;
+    grid-row: 2 / 5;
+}
+
+#N2{
+    margin-left: 15px;
+    grid-column: 1 / 5;
+    grid-row: 3 / 5;
+}
+
+#N3{  
+    height: 35px;
+    width: 35px;
+    grid-column: 3 / 5;
+    grid-row: 4 / 5;
+}
+
+#N4{
+    margin: 5px;
+    height: 25px;
+    width: 25px;
+    grid-column: 3 / 5;
+    grid-row: 1 / 5;
+}
+
+#N5{
+    margin-top: 5px;
+    margin-right: 3px;
+    height: 27px;
+    width: 27px;
+    grid-column: 5 / 5;
+    grid-row: 3 / 5;
+}
+
+#gadgets button{
+    margin: 10px;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    border: none;
+    border-radius: 5px;
+    background: #553311;
+    color: #fff;
+    transition: 0.5s;
+}
+  
+
+#gadgets button:hover{
+    scale: 1.04;
+}
+
+#gadgets button:active{
+    scale: 1.06;
+}
+
+@media (max-width: 768px) {
+    #Main {
+        flex-direction: column;
+        align-items: center;
+        gap: 20px;
+    }
+
+    #cookie {
+        width: 120px;
+        height: 120px;
+        grid-template-columns: repeat(4, 25px);
+        grid-template-rows: repeat(4, 25px);
+    }
+
+    .chocolate-chip {
+        width: 20px;
+        height: 20px;
+    }
+
+    #N1 {
+        grid-column: 3 / 4;
+        grid-row: 2 / 3;
+    }
+
+    #N2 {
+        grid-column: 1 / 3;
+        grid-row: 3 / 4;
+    }
+
+    #N3 {
+        width: 25px;
+        height: 25px;
+        grid-column: 2 / 4;
+        grid-row: 4 / 5;
+    }
+
+    #N4 {
+        width: 20px;
+        height: 20px;
+        grid-column: 2 / 3;
+        grid-row: 1 / 2;
+    }
+
+    #N5 {
+        width: 22px;
+        height: 22px;
+        grid-column: 4 / 5;
+        grid-row: 3 / 4;
+    }
+
+    #money {
+        font-size: 0.9rem;
+    }
+
+    #gadgets button {
+        font-size: 14px;
+        padding: 8px 15px;
+    }
+}
+
+@media (max-width: 480px) {
+    #cookie {
+        width: 100px;
+        height: 100px;
+        grid-template-columns: repeat(4, 20px);
+        grid-template-rows: repeat(4, 20px);
+    }
+
+    .chocolate-chip {
+        width: 18px;
+        height: 18px;
+    }
+
+    #money {
+        font-size: 13px;
+    }
+
+    #gadgets button {
+        font-size: 12px;
+        padding: 6px 12px;
+    }
+}
