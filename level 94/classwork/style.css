@@ -1,0 +1,158 @@
+#text-container {
+    text-align: center;
+    font-family: Arial, sans-serif;
+    font-weight: bold;
+    color: #333;
+    padding: 20px;
+    transition: font-size 0.2s ease;
+}
+
+#text {
+    font-size: 10vw;
+    white-space: nowrap;
+}
+
+@media screen and (max-width: 600px) {
+    #text {
+        font-size: 10vw;
+    }
+}
+
+
+@media screen and (max-width: 400px) {
+    #text {
+        font-size: 16px;
+    }
+}
+
+/* N5 */
+
+/* .container {
+    display: flex;
+    justify-content: space-between;
+    margin: 20px auto;
+    width: 80%;
+  }
+  
+.left, .right {
+    border: 1px solid black;
+    margin: 0 10px;
+    padding: 40px;
+    flex: 1;
+    text-align: center;
+}
+  
+@media (max-width: 768px) {
+    .container {
+      flex-direction: column;
+    }
+  
+    .left, .right {
+      margin: 10px 0;
+    }
+} */
+
+
+/* N4 */
+
+/* body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+  
+.navbar {
+    display: flex;
+    justify-content: space-around;
+    width: 600px;
+    background-color: #f4f4f4;
+}
+  
+.nav-item {
+    text-align: center;
+    padding: 10px;
+}
+
+@media (max-width: 425px) {
+    .navbar {
+      flex-direction: column;
+      width: 200px;
+    }
+  
+    .nav-item {
+      border-bottom: 1px solid #ccc;
+    }
+  
+    .nav-item:last-child {
+      border-bottom: none;
+    }
+} */
+  
+
+/* N3 */
+
+/* body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+  
+.container {
+    margin-top: 100px;
+    display: grid;
+    gap: 10px;
+    grid-template-columns: 200px 200px 200px;
+    width: 620px;
+    background-color: #fff;
+}
+  
+.card {
+    background-color: #ccc;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #002855;
+}
+  
+
+@media (max-width: 375px) {
+    .container {
+      grid-template-columns: 200px;
+      width: 220px;
+    }
+} */
+  
+
+/* N2 */
+
+/* #btn{
+    height: 100px;
+    width: 100px;
+    background-color: black;
+}
+
+#btn:hover{
+    animation: changeColor 5s infinite;
+}
+
+
+/* N1 */
+
+/* body{
+    animation: changeColor 5s infinite;
+}
+
+@keyframes changeColor{
+    0%{
+        background-color: blue;
+    }
+    33%{
+        background-color: red;
+    }
+    66%{
+        background-color: yellow;
+    }
+    100%{
+        background-color: blue;
+    }
+} */
