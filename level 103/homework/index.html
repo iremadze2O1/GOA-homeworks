@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Interactive Site</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="namePrompt" class="hidden">
+        <h2>Welcome! Please enter your name:</h2>
+        <input type="text" id="userName" placeholder="Enter your name">
+        <button onclick="saveName()">Submit</button>
+    </div>
+    <div id="mainContent" class="hidden">
+        <h2>Welcome, <span id="displayName"></span>!</h2>
+        <p>Your score: <span id="score">0</span></p>
+        <label for="colorPicker">Choose background color:</label>
+        <input type="color" id="colorPicker" onchange="changeBackgroundColor()">
+        <p>Guess the number between <span id="rangeStart">1</span> and <span id="rangeEnd">2</span>:</p>
+        <input type="number" id="guessNumber">
+        <button onclick="checkGuess()">Submit Guess</button>
+        <p id="feedback"></p>
+        <button onclick="logout()">Log Out</button>
+    </div>
+
+    <script src="script.js">
+    </script>
+</body>
+</html>
