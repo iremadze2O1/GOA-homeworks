@@ -1,0 +1,43 @@
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #f0f0f0;
+}
+
+#loading{
+    display: flex;
+    justify-content: space-between;
+    width: 80px;
+}
+
+#dot1, #dot2, #dot3{
+    width: 20px;
+    height: 20px;
+    background-color: #3498db;
+    border-radius: 50%;
+    animation: loadingAnimation 1.5s infinite ease-in-out;
+}
+
+#dot1{
+    animation-delay: 0s;
+}
+
+#dot2{
+    animation-delay: 0.3s;
+}
+
+#dot3{
+    animation-delay: 0.6s;
+}
+
+@keyframes loadingAnimation{
+    0%, 100%{
+        transform: scale(1);
+    }
+    50%{
+        transform: scale(1.5);
+    }
+}
