@@ -1,0 +1,49 @@
+body{
+    font-family: sans-serif;
+    background-color: #f0f0f0;
+    height: 100vh;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#cont{
+    background-color: white;
+    height: 500px;
+    width: 500px;
+}
+
+div{
+    text-align: center;
+    position: relative;
+    height: 100px;
+    width: 100px;
+}
+
+#red{
+    background-color: red;
+}
+
+#green{
+    bottom: 100px;
+    left: 400px;
+    background-color: green;
+}
+
+#gray{
+    left: 200px;
+    background-color: gray;
+}
+
+#blue{
+    top: 100px;
+    background-color: blue;
+}
+
+#purple{
+    left: 400px;
+    background-color: purple;
+}

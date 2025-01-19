@@ -1,0 +1,58 @@
+body {
+    background-color: lightgreen;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+div {
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#white {
+    width: 500px;
+    height: 500px;
+    background-color: white;
+}
+
+#blue {
+    width: 450px;
+    height: 450px;
+    background-color: blue;
+}
+
+#green {
+    width: 405px;
+    height: 405px;
+    background-color: green;
+}
+
+#black {
+    width: 364px;
+    height: 364px;
+    background-color: black;
+}
+
+#magenta {
+    width: 328px;
+    height: 328px;
+    background-color: magenta;
+}
+
+#purple {
+    width: 295px;
+    height: 295px;
+    background-color: purple;
+}
+
+#cyan {
+    width: 266px;
+    height: 266px;
+    background-color: cyan;
+}
+

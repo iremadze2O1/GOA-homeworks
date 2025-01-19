@@ -1,8 +1,3 @@
-@font-face {
-    font-family: Rubik;
-    src: url(images/Rubik-VariableFont_wght.ttf);
-}
-
 * {
     margin: 0;
     padding: 0;
@@ -84,7 +79,9 @@ body {
     margin: 15px 0;
 }
 
-#perMonth span{
+#perMonth span {
+    bottom: 6px;
+    position: relative;
     font-size: 0.8rem;
     color: #6bd5d6;    
 }
