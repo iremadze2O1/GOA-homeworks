@@ -1,0 +1,40 @@
+body{
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f9;
+    margin: 0;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+h1{
+    color: #333;
+}
+
+#books{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+}
+
+.book{
+    background: white;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    max-width: 300px;
+    text-align: center;
+}
+
+.book strong{
+    font-size: 1.2em;
+    color: #0073e6;
+}
+
+.book em{
+    display: block;
+    margin-top: 10px;
+    color: #555;
+}
