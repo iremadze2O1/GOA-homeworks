@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Animal Photo Generator</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <h1>Animal Photo Generator</h1>
+        
+        <div class="options">
+            <h2>Select Animals:</h2>
+            <div class="checkbox-group">
+                <label>
+                    <input type="checkbox" id="cat" checked> Cat
+                </label>
+                <label>
+                    <input type="checkbox" id="dog" checked> Dog
+                </label>
+                <label>
+                    <input type="checkbox" id="fox" checked> Fox
+                </label>
+            </div>
+            <button id="generate">Generate Photos</button>
+        </div>
+        
+        <div id="results" class="results"></div>
+        <div id="error" class="error"></div>
+
+        <script src="script.js"></script>
+    </body>
+</html>

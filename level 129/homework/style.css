@@ -1,0 +1,91 @@
+body{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #f5f7fa;
+    margin: 0;
+    padding: 20px;
+    color: #333;
+}
+        
+.container{
+    max-width: 1200px;
+    margin: 0 auto;
+}
+        
+h1{
+    text-align: center;
+    color: #2c3e50;
+    margin-bottom: 30px;
+}
+        
+.user-grid{
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    gap: 20px;
+    padding: 20px;
+}
+        
+.user-card{
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+        
+.user-card:hover{
+    transform: translateY(-5px);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+}
+        
+.user-name{
+    font-size: 1.5rem;
+    margin: 0 0 10px 0;
+    color: #3498db;
+    border-bottom: 2px solid #eee;
+    padding-bottom: 10px;
+}
+        
+.user-info{
+    margin-bottom: 15px;
+}
+        
+.info-label{
+    font-weight: bold;
+    color: #7f8c8d;
+    display: inline-block;
+    width: 80px;
+}
+        
+.loading{
+    text-align: center;
+    font-size: 1.2rem;
+    color: #7f8c8d;
+    margin: 50px 0;
+}
+        
+.error{
+    text-align: center;
+    color: #e74c3c;
+    font-size: 1.2rem;
+    margin: 50px 0;
+    padding: 20px;
+    background-color: #fadbd8;
+    border-radius: 5px;
+}
+        
+.refresh-btn{
+    display: block;
+    margin: 20px auto;
+    padding: 10px 20px;
+    background-color: #3498db;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1rem;
+    transition: background-color 0.3s;
+}
+        
+.refresh-btn:hover{
+    background-color: #2980b9;
+}
